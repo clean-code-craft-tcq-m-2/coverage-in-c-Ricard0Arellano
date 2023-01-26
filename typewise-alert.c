@@ -22,7 +22,7 @@ BreachType classifyTemperatureBreach(CoolingType coolingType, double temperature
       lowerLimit = 41;
       upperLimit = 45;
   }
-  else if(coolingType == MED_ACTIVE_COOLING){
+  else{
       lowerLimit = 36;
       upperLimit = 40;
   }
